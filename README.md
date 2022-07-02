@@ -11,10 +11,10 @@ For this project 3 classes were created and each class has a specific role.
 ## class AmericanVisaAccess
 This class's role is to log into the site and check the nearest available date. As a parameter of the constructor it receives the user's email and password. The class has 3 methods: checkFileIsCreated( ), seeNextIndex( ) and proximityParameter( ).
 
-checkFileIsCreated verifica se existe o arquivo "SheetData.xlsx" existe. Caso não tenha sido criado, o método cria o arquivo.
+checkFileIsCreated( ) checks if the file "SheetData.xlsx" exists. If it has not been created, the method creates the file.
 
-seeNextIndex verifica qual o proximo indice para controle da planilha.
+seeNextIndex( ) checks the next index to control the worksheet.
 
-proximityParameter retorna um numero (em dias) que é a subtração entre a data disponivel mais próxima e o primeiro dia do ano de 2022.
+proximityParameter( ) returns a number (in days) that is the subtraction of the nearest available date and the first day of the year 2022.
 
 
