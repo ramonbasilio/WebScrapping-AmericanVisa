@@ -20,11 +20,11 @@ proximityParameter( ) returns a number (in days) that is the subtraction of the 
 ## class save
 This class saves the following data in the worksheet:
 
-index > Search index (integer starting at 2)
+-index: Search index (integer starting at 2)
 
-currentMonth > Month of date available
+currentMonth: Month of date available
 
-currentYear > Year of available date
+currentYear: Year of available date
 
 totalDays > Number of days available
 
