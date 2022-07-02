@@ -5,6 +5,8 @@ With that in mind, I developed this script in Python to automatically enter the 
 
 This design can be improved and improved.
 
+Automated website: https://ais.usvisa-info.com/pt-br/niv/users/sign_in
+
 ## About the scripts
 For this project 4 classes were created and each class has a specific role.
 
@@ -21,12 +23,15 @@ This class's role is to log into the site and check the nearest available date. 
 This class saves the following data in the worksheet:
 
 * **index**: Search index (integer starting at 2)
+* **searchDate** : Survey date and time
 * **currentMonth**: Month of date available
 * **currentYear**: Year of available date
 * **totalDays**: Number of days available
 * **availableDays**: Available days
 * **firstClosestDate**: The closest available date
 * **proximityParameter**: Proximity parameter
+
+![worksheet](https://user-images.githubusercontent.com/37743546/177001248-fd5d0072-2f16-487e-86c1-3a77cb9ff62e.png)
 
 ## 3. class sendEmail
 This class sends the email with the information previously saved in the worksheet.\
