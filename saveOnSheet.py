@@ -20,7 +20,7 @@ class save():
         self.firstClosestDate = firstClosestDate
         self.proximityParameter = proximityParameter
         self.wb = load_workbook("SheetData.xlsx")
-        self.ws = self.wb.active  # ativa
+        self.ws = self.wb.active 
 
         self.ws[f"A{self.index}"] = self.index
         self.ws[f"B{self.index}"] = self.currentDate
