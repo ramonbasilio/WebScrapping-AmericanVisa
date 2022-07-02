@@ -32,8 +32,10 @@ This class saves the following data in the worksheet:
 This class sends the email with the information previously saved in the worksheet.\
 When instantiating this class, in addition to passing the data saved in the worksheet, the user must pass an email address (gmail) with the sender pass for sending and another email that will receive the content.
 
-![image_email](https://user-images.githubusercontent.com/37743546/176981532-379a7260-986a-477c-9e92-018d40bf02ee.png)
 See a example\
+
+![image_email](https://user-images.githubusercontent.com/37743546/176981532-379a7260-986a-477c-9e92-018d40bf02ee.png)
+
 
 ## 4. class alert
 This class returns if there is an earlier date.
