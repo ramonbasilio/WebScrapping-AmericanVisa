@@ -3,12 +3,14 @@ from saveOnSheet import save
 from sendEmailAlert import sendEmail
 from nearestDateAlert import alert
 
-email = "ramon.basilio@hotmail.com"
-password = "gta5632bv"
+#Email and password to access US visa scheduling website
+email = ""
+password = ""
 
-sender_address = 'ramon.s.basilio@gmail.com'
-sender_pass = 'cuxmtgrivlddkyiu'
-receiver_address = 'ramon.basilio@hotmail.com'
+#Emails and sender pass to send content by email
+sender_address = ''
+sender_pass = ''
+receiver_address = ''
 
 myAutomationWeb = AmericanVisaAccess(email, password)
 myAutomationWeb.checkFileIsCreated()
