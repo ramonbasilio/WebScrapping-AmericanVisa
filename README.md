@@ -28,3 +28,6 @@ This class saves the following data in the worksheet:
 * **firstClosestDate**: The closest available date
 * **proximityParameter**: Proximity parameter
 
+## class sendEmail
+This class sends the email with the information previously saved in the worksheet.
+
