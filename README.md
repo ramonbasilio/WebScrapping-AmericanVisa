@@ -42,4 +42,4 @@ The main file is reserved to instantiate the classes and declare the email and p
 Not least there is a file with a simple dictionary to convert the months into the respective days of the month.
 
 
-_Developed by Ramon Basilio
+_Developed by Ramon Basilio_
