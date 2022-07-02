@@ -22,9 +22,9 @@ This class saves the following data in the worksheet:
 
 *index: Search index (integer starting at 2)\
 *currentMonth: Month of date available\
-*currentYear: Year of available date
-*totalDays: Number of days available
-*availableDays: Available days
-*firstClosestDate: The closest available date
-*proximityParameter: Proximity parameter
+*currentYear: Year of available date\
+*totalDays: Number of days available\
+*availableDays: Available days\
+*firstClosestDate: The closest available date\
+*proximityParameter: Proximity parameter\
 
