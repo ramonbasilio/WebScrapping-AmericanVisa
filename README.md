@@ -6,7 +6,7 @@ With that in mind, I developed this script in Python to automatically enter the 
 This design can be improved and improved.
 
 ## About the scripts
-For this project 3 classes were created and each class has a specific role.
+For this project 4 classes were created and each class has a specific role.
 
 ## 1. class AmericanVisaAccess
 This class's role is to log into the site and check the nearest available date. As a parameter of the constructor it receives the user's email and password. The class has 3 methods: checkFileIsCreated( ), seeNextIndex( ) and proximityParameter( ).
@@ -32,3 +32,11 @@ This class saves the following data in the worksheet:
 This class sends the email with the information previously saved in the worksheet.\
 When instantiating this class, in addition to passing the data saved in the worksheet, the user must pass an email address (gmail) with the sender pass for sending and another email that will receive the content.
 
+## 4. class alert
+This class returns if there is an earlier date.
+
+## main
+The main file is reserved to instantiate the classes and declare the email and password for accessing the US visa scheduling website and also the emails and sender pass of the sendEmail class constructor.
+
+## dictionaryDaysMonths
+Not least there is a file with a simple dictionary to convert the months into the respective days of the month.
