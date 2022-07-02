@@ -18,7 +18,7 @@ seeNextIndex( ) checks the next index to control the worksheet.
 proximityParameter( ) returns a number (in days) that is the subtraction of the nearest available date and the first day of the year 2022.
 
 ## class save
-This class saves the following data in the spreadsheet:
+This class saves the following data in the worksheet:
 
 index > Search index (integer starting at 2)
 currentMonth > Month of date available
