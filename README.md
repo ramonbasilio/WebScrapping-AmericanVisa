@@ -44,4 +44,5 @@ Not least there is a file with a simple dictionary to convert the months into th
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-_Developed by Ramon Basilio_
+_Developed by Ramon Basilio_\
+_July/2022_
