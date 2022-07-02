@@ -8,7 +8,7 @@ This design can be improved and improved.
 
 For this project 3 classes were created and each class has a specific role.
 
-class AmericanVisaAccess
+## class AmericanVisaAccess
 This class's role is to log into the site and check the nearest available date. As a parameter of the constructor it receives the user's email and password. The class has 3 methods: checkFileIsCreated( ), seeNextIndex( ) and proximityParameter( ).
 
 
