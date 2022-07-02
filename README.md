@@ -6,6 +6,8 @@ With that in mind, I developed this script in Python to automatically enter the 
 
 This design can be improved and improved.
 
+##About the scripts
+
 For this project 3 classes were created and each class has a specific role.
 
 ## class AmericanVisaAccess
